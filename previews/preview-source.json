@@ -1,0 +1,16 @@
+{
+  "atlas": "assets/spritesheet.png",
+  "rendered_from_final_encoded_atlas": true,
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "look_frames": 16
+}

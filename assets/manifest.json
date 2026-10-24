@@ -1,0 +1,250 @@
+{
+  "name": "Capri · 摩羯",
+  "version": "0.1.0",
+  "sprite_version": 2,
+  "spritesheet": "spritesheet.png",
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "cell_width": 192,
+  "cell_height": 208,
+  "required_frames": 73,
+  "unused_cells": 15,
+  "look_coordinates": "clockwise from screen up; 90 right, 180 down, 270 left",
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frame_names": [
+        "idle/00.png",
+        "idle/01.png",
+        "idle/02.png",
+        "idle/03.png",
+        "idle/04.png",
+        "idle/05.png"
+      ],
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame_names": [
+        "running-right/00.png",
+        "running-right/01.png",
+        "running-right/02.png",
+        "running-right/03.png",
+        "running-right/04.png",
+        "running-right/05.png",
+        "running-right/06.png",
+        "running-right/07.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame_names": [
+        "running-left/00.png",
+        "running-left/01.png",
+        "running-left/02.png",
+        "running-left/03.png",
+        "running-left/04.png",
+        "running-left/05.png",
+        "running-left/06.png",
+        "running-left/07.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame_names": [
+        "waving/00.png",
+        "waving/01.png",
+        "waving/02.png",
+        "waving/03.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame_names": [
+        "jumping/00.png",
+        "jumping/01.png",
+        "jumping/02.png",
+        "jumping/03.png",
+        "jumping/04.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame_names": [
+        "failed/00.png",
+        "failed/01.png",
+        "failed/02.png",
+        "failed/03.png",
+        "failed/04.png",
+        "failed/05.png",
+        "failed/06.png",
+        "failed/07.png"
+      ],
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame_names": [
+        "waiting/00.png",
+        "waiting/01.png",
+        "waiting/02.png",
+        "waiting/03.png",
+        "waiting/04.png",
+        "waiting/05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame_names": [
+        "running/00.png",
+        "running/01.png",
+        "running/02.png",
+        "running/03.png",
+        "running/04.png",
+        "running/05.png"
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame_names": [
+        "review/00.png",
+        "review/01.png",
+        "review/02.png",
+        "review/03.png",
+        "review/04.png",
+        "review/05.png"
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    },
+    {
+      "row": 9,
+      "state": "look-a",
+      "frame_names": [
+        "look/000.png",
+        "look/022.5.png",
+        "look/045.png",
+        "look/067.5.png",
+        "look/090.png",
+        "look/112.5.png",
+        "look/135.png",
+        "look/157.5.png"
+      ],
+      "angles_degrees": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90,
+        112.5,
+        135,
+        157.5
+      ]
+    },
+    {
+      "row": 10,
+      "state": "look-b",
+      "frame_names": [
+        "look/180.png",
+        "look/202.5.png",
+        "look/225.png",
+        "look/247.5.png",
+        "look/270.png",
+        "look/292.5.png",
+        "look/315.png",
+        "look/337.5.png"
+      ],
+      "angles_degrees": [
+        180,
+        202.5,
+        225,
+        247.5,
+        270,
+        292.5,
+        315,
+        337.5
+      ]
+    }
+  ]
+}
